@@ -1,0 +1,44 @@
+.b-project {
+
+    &_margin {
+  
+      @include media-breakpoint-down(md) {
+        margin-bottom: 30px;
+      }
+  
+      @include media-breakpoint-down(sm) {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  
+    &__image {
+        max-width: 200px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+  
+    &__title {
+      font-size: 20px;
+      margin-bottom : 15px;
+    }
+  
+    &__description {
+      text-align: justify;
+      color: $projectsColor;
+      margin-bottom: 15px;
+    }
+  
+    &__details {
+      text-align: right;
+      display: block;
+      color: $greenColor;
+      font-size: 16px;
+      transition-duration: 0.5s;
+  
+      &:hover {
+        color: $blackColor;
+      }
+    }
+  }
