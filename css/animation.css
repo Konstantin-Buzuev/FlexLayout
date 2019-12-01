@@ -1,0 +1,21 @@
+/*HEADER*/
+.upper-menu{
+    transition-property: height;
+    transition-duration: 0.5s;
+}
+.upper-menu:hover{
+    height: 49px;
+}
+.social-container{
+    visibility: hidden;
+    transition-property: visiblity;
+    transition-duration: 1s;
+}
+.upper-menu:hover .social-container{
+    visibility: visible;
+}
+/*NAVBAR*/
+.nav-link{
+    transition-property: color;
+    transition-duration: 0.5s;
+}
