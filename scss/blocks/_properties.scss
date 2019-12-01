@@ -1,0 +1,9 @@
+.b-properties{
+    background-color: containerBackground;
+    padding: 50px 30px;
+    border-bottom: 1px solid $propertiesBorder;
+    &_noMargin{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

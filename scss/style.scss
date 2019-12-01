@@ -1,0 +1,31 @@
+@import "../packages/bootstrap-4.1.1/scss/bootstrap.scss";
+@import "_variables";
+
+@import "blocks/socials";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/login";
+@import "blocks/navbar";
+@import "blocks/slider";
+@import "blocks/properties";
+@import "blocks/property";
+
+
+/*COMMON*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $pageBackground;
+}
+
+.container {
+    max-width: 930px; /*+30px от отрицательных марджинов*/
+    margin: 0 auto;
+    background-color: $containerBackground;
+    padding: 0;
+}
+
+/*HEADER*/

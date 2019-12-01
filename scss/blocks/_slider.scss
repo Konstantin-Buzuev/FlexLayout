@@ -1,0 +1,37 @@
+.b-slider{
+    padding: 30px 30px 70px 30px;   
+    background-color: $carouselBackground;
+    &__carousel{
+        border: 1px solid $carouselInnerBorder;
+        background-color: $containerBackground;
+        padding: 10px;
+    }
+    &__indicators{
+        border-radius: 50% !important;
+        width: 10px !important;
+        height: 10px !important;
+        background-color: $pageBackground !important;
+        border: 2px solid $pageBackground !important;
+        bottom: -75px !important;
+        &.active{
+            background-color: $carouselBackground !important;
+            
+        }
+    }
+    &__ctrlPrev{
+        left: calc(42.5% - 40px) !important;
+    }
+    &__ctrlNext{
+        left: calc(42.5% + 40px) !important;
+    }
+    &__ctrlPrev, &__ctrlNext{
+        bottom: calc(-100% - 83px) !important;
+    }
+    &__btnPrev, &__btnNext{
+        height: 20px !important;
+        width: 20px !important;
+        border-radius: 50% !important;
+        background-color: $pageBackground !important;
+        opacity: 1 !important;
+    }
+}
